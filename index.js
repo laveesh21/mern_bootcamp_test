@@ -3,8 +3,8 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 
 const app = express();
-const URL = "mongodb://localhost:27017"; // Add 'const' keyword
-const PORT = 8000;
+const URL = "mongodb+srv://apexdev:temppass@apexcluster.jwousrz.mongodb.net/?retryWrites=true&w=majority"; // Add 'const' keyword
+const PORT = 3000;
 const router = express.Router();
 
 app.use(bodyParser.json());
